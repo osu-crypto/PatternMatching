@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{5280458E-A3DB-4965-9A35-5FB0A9F9124D}"
+	ProjectSection(SolutionItems) = preProject
+		CMakeLists.txt = CMakeLists.txt
+		copySourceToLinux.ps1 = copySourceToLinux.ps1
+		ExternalDependancies.props = ExternalDependancies.props
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libOTe", "libOTe\libOTe\libOTe.vcxproj.vcxproj", "{D159E2F9-226C-4B19-905E-CC1EA0EB013F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cryptoTools", "libOTe\cryptoTools\cryptoTools\cryptoTools.vcxproj", "{B707F703-490A-447F-9737-C6A70B8D7A61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "frontend", "frontend\frontend.vcxproj", "{C81DC04B-A0F0-4B77-8DCE-C8190E629467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Debug|ARM.ActiveCfg = Debug|x64
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Debug|x64.ActiveCfg = Debug|x64
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Debug|x64.Build.0 = Debug|x64
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Debug|x86.ActiveCfg = Debug|x64
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Release|ARM.ActiveCfg = Release|x64
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Release|x64.ActiveCfg = Release|x64
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Release|x64.Build.0 = Release|x64
+		{D159E2F9-226C-4B19-905E-CC1EA0EB013F}.Release|x86.ActiveCfg = Release|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Debug|ARM.ActiveCfg = Debug|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Debug|x64.ActiveCfg = Debug|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Debug|x64.Build.0 = Debug|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Debug|x86.ActiveCfg = Debug|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Release|ARM.ActiveCfg = Release|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Release|x64.ActiveCfg = Release|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Release|x64.Build.0 = Release|x64
+		{B707F703-490A-447F-9737-C6A70B8D7A61}.Release|x86.ActiveCfg = Release|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Debug|ARM.ActiveCfg = Debug|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Debug|x64.ActiveCfg = Debug|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Debug|x64.Build.0 = Debug|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Debug|x86.ActiveCfg = Debug|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Release|ARM.ActiveCfg = Release|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Release|x64.ActiveCfg = Release|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Release|x64.Build.0 = Release|x64
+		{C81DC04B-A0F0-4B77-8DCE-C8190E629467}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

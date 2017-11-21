@@ -1,0 +1,12 @@
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.63 (0.97) s
+total/trial: total(online)= 6628.00 (974.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.11 (0.88) s
+total/trial: total(online)= 6108.00 (880.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.27 (0.83) s
+total/trial: total(online)= 6268.00 (834.00) ms

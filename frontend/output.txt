@@ -1,0 +1,36 @@
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.63 (0.97) s
+total/trial: total(online)= 6628.00 (974.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.11 (0.88) s
+total/trial: total(online)= 6108.00 (880.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.27 (0.83) s
+total/trial: total(online)= 6268.00 (834.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 5.92 (0.52) s
+total/trial: total(online)= 5916.00 (517.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.59 (0.85) s
+total/trial: total(online)= 6587.00 (853.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 2.97 (0.55) s
+total/trial: total(online)= 2969.00 (552.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.45 (0.77) s
+total/trial: total(online)= 6454.00 (768.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.87 (1.30) s
+total/trial: total(online)= 6866.00 (1298.00) ms
+==========================
+ |t|= 16384	 |p|=512
+total/trial: total(online)= 6.15 (0.85) s
+total/trial: total(online)= 6150.00 (854.00) ms
